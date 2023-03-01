@@ -4,3 +4,7 @@ def solution(numbers):
         if i not in numbers:
             answer += i
     return answer
+
+#생각하지 못한 코드
+def solution(numbers):
+    return sum(range(10)) - sum(numbers)
