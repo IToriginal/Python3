@@ -3,7 +3,7 @@ def solution(s):
     #문자열이 없거나 한자리의 문자열 값만 가질 경우
     if n == 0:
         return ""
-    if n == 1:
+    elif n == 1:
         return s
     
     start, end = 0, 0
